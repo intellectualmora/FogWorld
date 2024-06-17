@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRoomNode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RoomNode>
+    <NodeName>空地</NodeName>
+    <NodeId>0</NodeId>
+    <ImgPath />
+    <Brief />
+    <Capacity>20</Capacity>
+    <Size>20</Size>
+    <Visibility>1</Visibility>
+    <ConnectionNodeIdList>
+        <int>1</int>
+    </ConnectionNodeIdList>
+	<IsBaseRoom>1</IsBaseRoom>
+    <FurnitureNodeIdList />
+  </RoomNode>
+  <RoomNode>
+    <NodeName>小道</NodeName>
+    <NodeId>1</NodeId>
+    <ImgPath />
+    <Brief />
+    <Capacity>5</Capacity>
+    <Size>5</Size>
+    <Visibility>1</Visibility>
+    <ConnectionNodeIdList>
+	    <int>0</int>
+    </ConnectionNodeIdList>
+    <IsBaseRoom>0</IsBaseRoom>
+    <FurnitureNodeIdList />
+  </RoomNode>
+
+  <RoomNode>
+    <NodeName>驿站大厅</NodeName>
+    <NodeId>2</NodeId>
+    <ImgPath />
+    <Brief />
+    <Capacity>10</Capacity>
+    <Size>10</Size>
+    <Visibility>1</Visibility>
+    <ConnectionNodeIdList>
+
+    </ConnectionNodeIdList>
+    <IsBaseRoom>1</IsBaseRoom>
+    <FurnitureNodeIdList />
+  </RoomNode>
+  <RoomNode>
+    <NodeName>店内</NodeName>
+    <NodeId>3</NodeId>
+    <ImgPath />
+    <Brief />
+    <Capacity>5</Capacity>
+    <Size>10</Size>
+    <Visibility>1</Visibility>
+    <ConnectionNodeIdList>
+
+    </ConnectionNodeIdList>
+    <IsBaseRoom>1</IsBaseRoom>
+    <FurnitureNodeIdList />
+  </RoomNode>
+</ArrayOfRoomNode>

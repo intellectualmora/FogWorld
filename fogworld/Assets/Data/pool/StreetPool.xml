@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfStreetNode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StreetNode>
+    <NodeName>十字花街道</NodeName>
+    <NodeId>0</NodeId>
+	  <ImgPath>
+		  content/img/bg/street0
+	  </ImgPath >
+    <Brief />
+    <BlockNodeId>1</BlockNodeId>
+    <ConnectionNodeIdList>
+		<int>1</int>
+	    <int>2</int>
+	    <int>3</int>
+	    <int>4</int>
+    </ConnectionNodeIdList>
+  </StreetNode>
+  <StreetNode>
+    <NodeName>十字花公园</NodeName>
+    <NodeId>1</NodeId>
+	  <ImgPath>
+		  content/img/bg/bedroom0
+	  </ImgPath >
+    <Brief />
+    <BlockNodeId>1</BlockNodeId>
+    <ConnectionNodeIdList>
+	    <int>0</int>
+    </ConnectionNodeIdList>
+  </StreetNode>
+  <StreetNode>
+    <NodeName>市政厅</NodeName>
+    <NodeId>2</NodeId>
+	  <ImgPath>
+		  content/img/bg/bedroom0
+	  </ImgPath >
+    <Brief />
+    <BlockNodeId>0</BlockNodeId>
+    <ConnectionNodeIdList>
+	    <int>0</int>
+    </ConnectionNodeIdList>
+  </StreetNode>
+  <StreetNode>
+    <NodeName>格林街区</NodeName>
+    <NodeId>3</NodeId>
+	  <ImgPath>
+		  content/img/bg/bedroom0
+	  </ImgPath >
+    <Brief />
+    <BlockNodeId>3</BlockNodeId>
+    <ConnectionNodeIdList>
+	    <int>0</int>
+    </ConnectionNodeIdList>
+  </StreetNode>
+  <StreetNode>
+    <NodeName>庞培大学</NodeName>
+    <NodeId>4</NodeId>
+	  <ImgPath>
+		  content/img/bg/bedroom0
+	  </ImgPath >
+    <Brief />
+    <BlockNodeId>0</BlockNodeId>
+    <ConnectionNodeIdList>
+	    <int>0</int>
+    </ConnectionNodeIdList>
+  </StreetNode>
+</ArrayOfStreetNode>

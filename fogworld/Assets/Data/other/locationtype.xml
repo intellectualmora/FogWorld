@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LocationType>
+  <LocationTypeNode>
+    <name>富人区</name>
+    <size>30</size>
+    <danger>0</danger>
+    <prefix>a0<prefix>
+    <imgpath></imgpath>
+  </LocationTypeNode>
+    <LocationTypeNode>
+    <name>高级平民区</name>
+    <size>50</size>
+    <danger>0</danger>
+    <prefix>a1<prefix>
+    <imgpath></imgpath>
+  </LocationTypeNode>
+   </LocationTypeNode>
+    <LocationTypeNode>
+    <name>低级平民区</name>
+    <size>70</size>
+    <danger>0.001</danger>
+    <prefix>a2<prefix>
+    <imgpath></imgpath>
+  </LocationTypeNode>
+  </LocationTypeNode>
+    <LocationTypeNode>
+    <name>贫民窟</name>
+    <danger>0.01</danger>
+    <size>100</size>
+    <prefix>a3<prefix>
+    <imgpath></imgpath>
+  </LocationTypeNode>
+<LocationTypeNode>
+    <name>商业区</name>
+    <danger>0.001</danger>
+    <size>100</size>
+    <prefix>a4<prefix>
+    <imgpath></imgpath>
+  </LocationTypeNode>
+<LocationTypeNode>
+    <name>轻工业区</name>
+    <danger>0.001</danger>
+    <size>300</size>
+    <prefix>a5<prefix>
+    <imgpath></imgpath>
+  </LocationTypeNode>
+<LocationTypeNode>
+    <name>重工业区</name>
+    <danger>0.001</danger>
+    <size>500</size>
+    <prefix>a6<prefix>
+    <imgpath></imgpath>
+  </LocationTypeNode>
+<LocationTypeNode>
+    <name>地下贫民窟</name>
+    <danger>0.1</danger>
+    <size>30</size>
+    <prefix>a7<prefix>
+    <imgpath></imgpath>
+  </LocationTypeNode>
+<LocationTypeNode>
+    <name>地下商业区</name>
+    <danger>0.1</danger>
+    <size>50</size>
+    <prefix>a8<prefix>
+    <imgpath></imgpath>
+  </LocationTypeNode>
+<LocationTypeNode>
+    <name>地下工业区</name>
+    <danger>0.1</danger>
+    <size>100</size>
+    <prefix>a9<prefix>
+    <imgpath></imgpath>
+  </LocationTypeNode>
+<LocationType>

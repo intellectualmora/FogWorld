@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SubSubRegionList>
+<SubSubRegionNode>
+    <name>十字花街道</name>
+    <rid>c0d0</rid>
+    <prefix>e0<prefix>
+    <imgpath></imgpath>
+    <description></description>
+</SubSubRegionNode>
+<SubSubRegionNode>
+    <name>十字花公园</name>
+    <rid>c0d0</rid>
+    <prefix>e1<prefix>
+    <imgpath></imgpath>
+    <description></description>
+</SubSubRegionNode>
+<SubSubRegionNode>
+    <name>市政厅</name>
+    <rid>c0d0</rid>
+    <prefix>e2<prefix>
+    <imgpath></imgpath>
+    <description></description>
+</SubSubRegionNode>
+<SubSubRegionNode>
+    <name>中心居民区</name>
+    <rid>c0d0</rid>
+    <prefix>e3<prefix>
+    <imgpath></imgpath>
+    <description></description>
+</SubSubRegionNode>
+<SubSubRegionNode>
+    <name>庞培大学</name>
+    <rid>c0d0</rid>
+    <prefix>e4<prefix>
+    <imgpath></imgpath>
+    <description></description>
+</SubSubRegionNode>
+
+</SubSubRegionList>

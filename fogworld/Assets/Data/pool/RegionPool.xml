@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRegionNode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RegionNode>
+    <NodeName>永恒罗马城</NodeName>
+    <NodeId>0</NodeId>
+    <ImgPath />
+    <Brief />
+    <DistrictNodeIdList>
+      <int>0</int>
+      <int>1</int>
+      <int>2</int>
+      <int>3</int>
+      <int>4</int>
+    </DistrictNodeIdList>
+  </RegionNode>
+  <RegionNode>
+    <NodeName>迷雾森林</NodeName>
+    <NodeId>1</NodeId>
+    <ImgPath />
+    <Brief />
+    <DistrictNodeIdList>
+    </DistrictNodeIdList>
+  </RegionNode>
+</ArrayOfRegionNode>

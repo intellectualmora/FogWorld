@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDistrictNode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DistrictNode>
+    <NodeName>中区</NodeName>
+    <NodeId>0</NodeId>
+    <ImgPath />
+    <Brief>中区在永恒罗马的心脏地带，庞培大学的古典柱廊与现代玻璃建筑巧妙融合，形成了一种时空交错的美感。市政厅坐落在一片开阔的广场上，广场上常有市民聚集，讨论着城市的未来。十字花公园则是一片绿色的翡翠，四季常青，花香四溢，是市民休闲放松的理想场所。周围的居住区则是一排排精心设计的住宅，既有传统的罗马式阳台，也有现代简约的风格，反映出这个城市的多元与和谐。这里是永恒罗马的灵魂所在，是过去与未来的交汇点，是每一个市民心中的骄傲。</Brief>
+	  <StreetNodeIdList>
+      <int>0</int>
+      <int>1</int>
+      <int>2</int>
+      <int>3</int>
+      <int>4</int>
+    </StreetNodeIdList>
+  </DistrictNode>
+  <DistrictNode>
+    <NodeName>东区</NodeName>
+    <NodeId>1</NodeId>
+    <ImgPath />
+    <Brief>东区是这座城市的经济动脉，玛丽亚女王港的巨大集装箱船只和起重机的轮廓在日落时分映衬着天际线，成为了这个区域的标志性景象。重工业区的烟囱排放着蒸汽，昼夜不息的机器声是这里的主旋律。虽然经济繁荣，但东区的贫民窟和外国人聚居区的存在也暴露了社会的另一面，这里的街道相对狭窄，人群混杂，小贩叫卖声此起彼伏，治安问题也因此变得复杂。东区是对比鲜明的地方，既有希望的光芒，也有挑战的阴影，是永恒罗马多元文化和社会问题并存的真实写照。</Brief>
+	  <StreetNodeIdList />
+  </DistrictNode>
+  <DistrictNode>
+    <NodeName>南区</NodeName>
+    <NodeId>2</NodeId>
+    <ImgPath />
+    <Brief>南区是一个充满活力的商业中心，这里的轻工业与繁华的商业街区交织在一起。银行业的高楼大厦耸立在街道两旁，金融精英们忙碌地穿梭于其中。奢侈品店铺装饰着精美的橱窗，展示着最新的时尚趋势，吸引着寻求高端生活品质的顾客。服务业也在这里蓬勃发展，从五星级酒店到私人顾问公司，都能在这里找到。南区的平民区则更加贴近日常生活，小商店和餐馆为居民提供便利。整个南区是一个多元化的社区，既有商业的繁荣，也不失平民的温馨，是永恒罗马独特魅力的又一体现。</Brief>
+	  <StreetNodeIdList />
+  </DistrictNode>
+  <DistrictNode>
+    <NodeName>西区</NodeName>
+    <NodeId>3</NodeId>
+    <ImgPath />
+    <Brief>西区是这座城市中最为璀璨夺目的地带。这里，永恒罗马皇家大学的庄严校园里，知识与权力的精英们探讨着世界的奥秘和未来的方向。街道两旁，奢华的娱乐场所如同星光闪烁，吸引着寻求顶级享受的人们。皇家宫殿则以其宏伟壮丽，彰显着历史的荣耀和贵族的尊严。富人居住区的别墅群则是建筑艺术与自然美景的完美结合，每一座住宅都透露出主人的品味和地位。西区不仅是财富和权力的象征，也是永恒罗马文化和艺术的发源地，是这座城市辉煌的见证者。</Brief>
+    <StreetNodeId />
+  </DistrictNode>
+  <DistrictNode>
+    <NodeName>北区</NodeName>
+    <NodeId>4</NodeId>
+    <ImgPath />
+    <Brief>北区是一片广袤的土地，这里的居民以农业和畜牧业为生。金色的麦田和绿色的牧场在风中波动，羊群和牛群悠闲地在这片肥沃的土地上觅食。然而，北区也是一片充满神秘与危险的地方，它与帝国的边界相邻，迷雾森林的阴影笼罩着这片区域。传说中的怪物在森林深处游荡，时而会突然出现在人类的世界中，给当地居民的生活带来不确定性和恐惧。因此，尽管这里的自然风光令人赞叹，但治安问题一直是北区需要面对的挑战。</Brief>
+	  <StreetNodeIdList />
+  </DistrictNode>
+</ArrayOfDistrictNode>

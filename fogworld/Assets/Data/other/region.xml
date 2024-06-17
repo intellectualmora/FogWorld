@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RegionList>
+<RegionNode>
+    <name>罗马城</name>
+    <prefix>c0<prefix>
+    <imgpath></imgpath>
+    <description></description>
+</RegionNode>
+<RegionNode>
+    <name>罗马近郊（北）</name>
+    <prefix>c1<prefix>
+    <imgpath></imgpath>
+    <description></description>
+</RegionNode>
+<RegionNode>
+    <name>罗马近郊（南）</name>
+    <prefix>c2<prefix>
+    <imgpath></imgpath>
+    <description></description>
+</RegionNode>
+<RegionNode>
+    <name>迷雾森林</name>
+    <prefix>c3<prefix>
+    <imgpath></imgpath>
+    <description></description>
+
+</RegionNode>
+<RegionNode>
+    <name>流放者之地</name>
+    <prefix>c4<prefix>
+    <imgpath></imgpath>
+    <description></description>
+</RegionNode>
+<RegionNode>
+    <name>罗马近海（东）</name>
+    <prefix>c5<prefix>
+    <imgpath></imgpath>
+    <description></description>
+</RegionNode>
+
+<RegionNode>
+    <name>罗马近海（南）</name>
+    <prefix>c6<prefix>
+    <imgpath></imgpath>
+    <description></description>
+</RegionNode>
+
+<RegionNode>
+    <name>罗马远海（东）</name>
+    <prefix>c7<prefix>
+    <imgpath></imgpath>
+    <description></description>
+</RegionNode>
+
+<RegionNode>
+    <name>罗马远海（南）</name>
+    <prefix>c8<prefix>
+    <imgpath></imgpath>
+    <description></description>
+</RegionNode>
+
+<RegionNode>
+    <name>罗马远海（西）</name>
+    <prefix>c9<prefix>
+    <imgpath></imgpath>
+    <description></description>
+</RegionNode>
+
+<RegionNode>
+    <name>罗马远海（北）</name>
+    <prefix>c10<prefix>
+    <imgpath></imgpath>
+    <description></description>
+</RegionNode>
+</RegionList>

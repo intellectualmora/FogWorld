@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBlockNode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BlockNode>
+    <NodeName>特殊市区</NodeName>
+    <NodeId>0</NodeId>
+    <ImgPath />
+    <Brief />
+    <Danger>0</Danger>
+    <Size>0</Size>
+    <ArchitectureNodeIdList />
+  </BlockNode>
+  <BlockNode>
+    <NodeName>公共市区</NodeName>
+    <NodeId>1</NodeId>
+    <ImgPath />
+    <Brief />
+    <Danger>0.001</Danger>
+    <Size>30</Size>
+	  <ArchitectureNodeIdList>
+	    <int>0</int>
+    </ArchitectureNodeIdList>
+  </BlockNode>
+  <BlockNode>
+    <NodeName>贫民区</NodeName>
+    <NodeId>2</NodeId>
+    <ImgPath />
+    <Brief />
+    <Danger>0.01</Danger>
+    <Size>100</Size>
+	  <ArchitectureNodeIdList>
+		  <int>0</int>
+		  <int>2</int>
+	  </ArchitectureNodeIdList>
+  </BlockNode>
+  <BlockNode>
+    <NodeName>平民区</NodeName>
+    <NodeId>3</NodeId>
+    <ImgPath />
+    <Brief />
+    <Danger>0.001</Danger>
+    <Size>100</Size>
+	  <ArchitectureNodeIdList>
+		  <int>0</int>
+		  <int>2</int>
+	  </ArchitectureNodeIdList>
+  </BlockNode>
+  <BlockNode>
+    <NodeName>富人区</NodeName>
+    <NodeId>4</NodeId>
+    <ImgPath />
+    <Brief />
+    <Danger>0.0001</Danger>
+    <Size>100</Size>
+	  <ArchitectureNodeIdList>
+		  <int>0</int>
+		  <int>2</int>
+	  </ArchitectureNodeIdList>
+  </BlockNode>
+</ArrayOfBlockNode>

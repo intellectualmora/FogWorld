@@ -1,0 +1,21 @@
+[Dd]ebug/
+[Rr]elease/
+*.mp3
+*.mp4
+*.wav
+*.meta
+*.png
+*.gif
+*.jpeg
+*.jpg
+*.shader
+*.cginc
+*.prefab
+*.asset
+*.mat
+*.pdf
+*.dll
+*.config
+*.unity
+# NuGet Packages Directory
+packages

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfArchitectureNode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ArchitectureNode>
+    <NodeName>街区</NodeName>
+    <NodeId>0</NodeId>
+    <ImgPath />
+    <Brief />
+    <Size>20</Size>
+    <Capacity>20</Capacity>
+    <CareerNodeIdNumList />
+    <RoomNodeIdNumList>
+      <ValueTupleOfInt32Int32>
+        <Item1>0</Item1>
+        <Item2>1</Item2>
+      </ValueTupleOfInt32Int32>
+    </RoomNodeIdNumList>
+    <IsBaseArchitecture>1</IsBaseArchitecture>
+  </ArchitectureNode>
+  <ArchitectureNode>
+    <NodeName>驿站</NodeName>
+    <NodeId>1</NodeId>
+    <ImgPath />
+    <Brief />
+    <Size>20</Size>
+    <Capacity>20</Capacity>
+    <CareerNodeIdNumList>
+      <ValueTupleOfInt32Int32>
+        <Item1>0</Item1>
+        <Item2>2</Item2>
+      </ValueTupleOfInt32Int32>
+    </CareerNodeIdNumList>
+    <RoomNodeIdNumList>
+      <ValueTupleOfInt32Int32>
+        <Item1>2</Item1>
+        <Item2>1</Item2>
+      </ValueTupleOfInt32Int32>
+    </RoomNodeIdNumList>
+    <IsBaseArchitecture>0</IsBaseArchitecture>
+  </ArchitectureNode>
+  <ArchitectureNode>
+    <NodeName>杂货店</NodeName>
+    <NodeId>2</NodeId>
+    <ImgPath />
+    <Brief />
+    <Size>20</Size>
+    <Capacity>20</Capacity>
+    <CareerNodeIdNumList>
+      <ValueTupleOfInt32Int32>
+        <Item1>1</Item1>
+        <Item2>2</Item2>
+      </ValueTupleOfInt32Int32>
+    </CareerNodeIdNumList>
+    <RoomNodeIdNumList>
+      <ValueTupleOfInt32Int32>
+        <Item1>3</Item1>
+        <Item2>1</Item2>
+      </ValueTupleOfInt32Int32>
+    </RoomNodeIdNumList>
+    <IsBaseArchitecture>0</IsBaseArchitecture>
+  </ArchitectureNode>
+  <ArchitectureNode>
+    <NodeName>服装店</NodeName>
+    <NodeId>3</NodeId>
+    <ImgPath />
+    <Brief />
+    <Size>20</Size>
+    <Capacity>20</Capacity>
+    <CareerNodeIdNumList>
+      <ValueTupleOfInt32Int32>
+        <Item1>2</Item1>
+        <Item2>2</Item2>
+      </ValueTupleOfInt32Int32>
+    </CareerNodeIdNumList>
+    <RoomNodeIdNumList>
+      <ValueTupleOfInt32Int32>
+        <Item1>3</Item1>
+        <Item2>1</Item2>
+      </ValueTupleOfInt32Int32>
+    </RoomNodeIdNumList>
+    <IsBaseArchitecture>0</IsBaseArchitecture>
+  </ArchitectureNode>
+</ArrayOfArchitectureNode>

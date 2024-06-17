@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SubRegionList>
+<SubRegionNode>
+    <name>中央区</name>
+    <rid>c0</rid>
+    <prefix>d0</prefix>
+    <imgpath></imgpath>
+    <description></description>
+</SubRegionNode>
+
+<SubRegionNode>
+    <name>东区</name>
+    <rid>c0</rid>
+    <prefix>d1</prefix>
+    <imgpath></imgpath>
+    <description></description>
+</SubRegionNode>
+
+<SubRegionNode>
+    <name>西区</name>
+    <rid>c0</rid>
+    <prefix>d2</prefix>
+    <imgpath></imgpath>
+    <description></description>
+</SubRegionNode>
+
+<SubRegionNode>
+    <name>南区</name>
+    <rid>c0</rid>
+    <prefix>d3</prefix>
+    <imgpath></imgpath>
+    <description></description>
+</SubRegionNode>
+
+<SubRegionNode>
+    <name>西区</name>
+    <rid>c0</rid>
+    <prefix>d4</prefix>
+    <imgpath></imgpath>
+    <description></description>
+</SubRegionNode>
+
+<SubRegionNode>
+    <name>北区</name>
+    <rid>c0</rid>
+    <prefix>d5</prefix>
+    <imgpath></imgpath>
+    <description></description>
+</SubRegionNode>
+</SubRegionList>

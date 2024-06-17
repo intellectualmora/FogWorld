@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRelationNode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RelationNode>
+    <NodeName>父亲</NodeName>
+    <NodeId>0</NodeId>
+	<MobNodeName>男人</MobNodeName>
+		<Prob>0.2</Prob>
+    <AgeGap>14</AgeGap>
+		<Affection>30</Affection>
+    <ImgPath />
+    <Brief>父亲</Brief>
+    <RelationPairNameList>
+	    <ValueTupleOfInt32String>
+		    <Item1>0</Item1>
+		    <Item2>儿子</Item2>
+	    </ValueTupleOfInt32String>
+		<ValueTupleOfInt32String>
+		    <Item1>1</Item1>
+		    <Item2>女儿</Item2>
+	    </ValueTupleOfInt32String>
+    </RelationPairNameList>
+	</RelationNode>
+	<RelationNode>
+		<NodeName>母亲</NodeName>
+		<NodeId>1</NodeId>
+		<MobNodeName>女人</MobNodeName>
+		<Prob>0.2</Prob>
+		<AgeGap>14</AgeGap>
+		<Affection>30</Affection>
+		<ImgPath />
+		<Brief>母亲</Brief>
+		<RelationPairNameList>
+			<ValueTupleOfInt32String>
+				<Item1>0</Item1>
+				<Item2>儿子</Item2>
+			</ValueTupleOfInt32String>
+			<ValueTupleOfInt32String>
+				<Item1>1</Item1>
+				<Item2>女儿</Item2>
+			</ValueTupleOfInt32String>
+		</RelationPairNameList>
+	</RelationNode>
+	<RelationNode>
+		<NodeName>朋友</NodeName>
+		<NodeId>2</NodeId>
+		<MobNodeName>女人</MobNodeName>
+		<Prob>0.3</Prob>
+		<AgeGap>0</AgeGap>
+		<Affection>15</Affection>
+		<ImgPath />
+		<Brief>朋友</Brief>
+		<RelationPairNameList>
+			<ValueTupleOfInt32String>
+				<Item1>0</Item1>
+				<Item2>朋友</Item2>
+			</ValueTupleOfInt32String>
+			<ValueTupleOfInt32String>
+				<Item1>1</Item1>
+				<Item2>朋友</Item2>
+			</ValueTupleOfInt32String>
+		
+	</RelationPairNameList>
+	</RelationNode>
+	<RelationNode>
+		<NodeName>朋友</NodeName>
+		<NodeId>3</NodeId>
+		<MobNodeName>男人</MobNodeName>
+		<Prob>0.3</Prob>
+		<AgeGap>0</AgeGap>
+		<Affection>15</Affection>
+		<ImgPath />
+		<Brief>朋友</Brief>
+		<RelationPairNameList>
+			<ValueTupleOfInt32String>
+				<Item1>0</Item1>
+				<Item2>朋友</Item2>
+			</ValueTupleOfInt32String>
+			<ValueTupleOfInt32String>
+				<Item1>1</Item1>
+				<Item2>朋友</Item2>
+			</ValueTupleOfInt32String>
+		
+	</RelationPairNameList>
+	</RelationNode>
+	<RelationNode>
+		<NodeName>相识</NodeName>
+		<NodeId>4</NodeId>
+		<MobNodeName>男人</MobNodeName>
+		<AgeGap>0</AgeGap>
+		<Affection>5</Affection>
+		<Prob>0.4</Prob>
+		<ImgPath />
+		<Brief>相识</Brief>
+		<RelationPairNameList>
+			<ValueTupleOfInt32String>
+				<Item1>0</Item1>
+				<Item2>相识</Item2>
+			</ValueTupleOfInt32String>
+			<ValueTupleOfInt32String>
+				<Item1>1</Item1>
+				<Item2>相识</Item2>
+			</ValueTupleOfInt32String>
+		
+	</RelationPairNameList>
+	</RelationNode>
+	<RelationNode>
+		<NodeName>相识</NodeName>
+		<NodeId>5</NodeId>
+		<MobNodeName>女人</MobNodeName>
+		<AgeGap>0</AgeGap>
+		<Affection>5</Affection>
+		<Prob>0.4</Prob>
+		<ImgPath />
+		<Brief>相识</Brief>
+		<RelationPairNameList>
+			<ValueTupleOfInt32String>
+				<Item1>0</Item1>
+				<Item2>相识</Item2>
+			</ValueTupleOfInt32String>
+			<ValueTupleOfInt32String>
+				<Item1>1</Item1>
+				<Item2>相识</Item2>
+			</ValueTupleOfInt32String>
+		</RelationPairNameList>
+	</RelationNode>
+	<RelationNode>
+		<NodeName>奴隶</NodeName>
+		<NodeId>6</NodeId>
+		<MobNodeName>女人</MobNodeName>
+		<AgeGap>0</AgeGap>
+		<Affection>0</Affection>
+		<Prob>0</Prob>
+		<ImgPath />
+		<Brief>相识</Brief>
+		<RelationPairNameList>
+			<ValueTupleOfInt32String>
+				<Item1>0</Item1>
+				<Item2>主人</Item2>
+			</ValueTupleOfInt32String>
+			<ValueTupleOfInt32String>
+				<Item1>1</Item1>
+				<Item2>主人</Item2>
+			</ValueTupleOfInt32String>
+		</RelationPairNameList>
+	</RelationNode>
+</ArrayOfRelationNode>
