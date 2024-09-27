@@ -8,28 +8,23 @@ namespace Backend
 {
     public class MobFactory:Factory
     {
-        public static void Generate(MobNode mobNode)
+        public static void Generate(MobNode mobNode, int age)
         {
-            int age;
             List<int> organIdList;
-            if (mobNode.Lifetime != -1){
+            if (mobNode.Lifetime != -1 && age == -1){
                 age = new Random().Next(4, mobNode.Lifetime);
-            }
-            else
-            {
-                age = -1;
             }
             string objName = MobNameFactory.Generate(mobNode.NodeName);
             int ageStage = AgeStage( age, mobNode.Lifetime);
             double size = LifeDecay(Math.Abs(new Normal(mobNode.Size, Common.Stddev).Sample()),mobNode.LifeDecayRateList, ageStage);
             double weight = Math.Abs(new Normal(mobNode.Weight, Common.Stddev).Sample());
             string imgPath = MobImageFactory.Generate(mobNode.NodeName, ageStage, weight / size);
-            int personaId = mobNode.PersonaIdList[new Random().Next(mobNode.PersonaIdList.Count)];
+            int personaId = mobNode.PersonaNodeIdList[new Random().Next(mobNode.PersonaNodeIdList.Count)];
             Mob mob =  new Mob(objName, imgPath, "", mobNode.NodeId, size, weight,age,personaId,new List<(int, string,int)>(),new List<Ability>(), new List <Demand>(),new Queue<(int, string)>(), new List<Talent>(),new List<int>(),0);
             OrganFactory.Generate(mob,mobNode,ageStage);
-            RelationFactory.Generate(mob);
+            DemandFactory.Generate(mob, mobNode);
             AbilityFactory.Generate(mob);
-            DemandFactory.Generate(mob);
+            RelationFactory.Generate(mob);
             TalentListFactory.Generate(mob);
 
         }
@@ -67,7 +62,7 @@ namespace Backend
                 return 3;
             }
         }
-        public static void Construct(string nodeName)
+        public static void Construct(string nodeName,int age = -1)
         {
             Registry reg = Registry.GetRegistry();
             List<Node> mobNodeList = (List<Node>) reg.GetNodeList(typeof(MobNode));
@@ -75,7 +70,7 @@ namespace Backend
             {
                 if (mobNode.NodeName == nodeName)
                 {
-                    Generate((MobNode)mobNode);
+                    Generate((MobNode)mobNode, age);
                 }
             }
         }

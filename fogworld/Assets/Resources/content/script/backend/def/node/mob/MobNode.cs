@@ -34,21 +34,21 @@ namespace Backend
          * Node数据全为均值，实例产生参考均值，标准差为1的正浮点数
          */
         public List<int> OrganNodeIdList { get; set; }
-        public List<int> PersonaIdList { get; set; }
+        public List<int> PersonaNodeIdList { get; set; }
         public double Size { get; set; }
         public double Weight { get; set; }
         public int Lifetime { get; set; }
-        public List<int> DemandIdList { get; set; }
+        public List<int> DemandNodeIdList { get; set; }
         public List<double> LifeDecayRateList { get; set; }
 
-        public MobNode(string nodeName, int nodeId, string imgPath, string brief, List<int> organNodeIdList, List<int> personaIdList, double size, double weight, int lifetime, List<int> demandIdList, List<double> lifeDecayRateList) : base(nodeName, nodeId, imgPath, brief)
+        public MobNode(string nodeName, int nodeId, string imgPath, string brief, List<int> organNodeIdList, List<int> personaNodeIdList, double size, double weight, int lifetime, List<int> demandNodeIdList, List<double> lifeDecayRateList) : base(nodeName, nodeId, imgPath, brief)
         {
             OrganNodeIdList = organNodeIdList;
             Size = size;
             Weight = weight;
-            PersonaIdList = personaIdList;
+            PersonaNodeIdList = personaNodeIdList;
             Lifetime = lifetime;
-            DemandIdList = demandIdList;
+            DemandNodeIdList = demandNodeIdList;
             LifeDecayRateList = lifeDecayRateList;
 
         }

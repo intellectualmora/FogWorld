@@ -9,7 +9,7 @@ namespace Backend
     [Serializable]
     public class SocialAbility:Ability
     {
-        public string status;
+        public string Status { get; set; }
         public SocialAbility(Mob mob):base(mob,Common.SubTimeCost)
         {
 

@@ -8,7 +8,7 @@ namespace Backend
 {
     public class MobImageFactory:Factory
     {
-        public static string Generate(string mobNodeName)
+        public static string Generate(string mobNodeName,int ageStage, double BMI)
         {
             Registry reg = Registry.GetRegistry();
             List<Node> NameNodeList = reg.GetNodeList(typeof(NameNode));

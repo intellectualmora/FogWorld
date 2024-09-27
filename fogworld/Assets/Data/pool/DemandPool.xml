@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDemandNode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<DemandNode>
+		<NodeName>饥饿</NodeName>
+		<NodeId>0</NodeId>
+		<ImgPath />
+		<Maximum>100</Maximum>
+		<Decay>0.3</Decay>
+		<Threshold>30</Threshold>
+	</DemandNode>
+	<DemandNode>
+		<NodeName>如厕</NodeName>
+		<NodeId>1</NodeId>
+		<ImgPath />
+		<Maximum>100</Maximum>
+		<Decay>0.3</Decay>
+		<Threshold>30</Threshold>
+	</DemandNode>
+	<DemandNode>
+		<NodeName>娱乐</NodeName>
+		<NodeId>2</NodeId>
+		<ImgPath />
+		<Maximum>100</Maximum>
+		<Decay>0.3</Decay>
+		<Threshold>30</Threshold>
+	</DemandNode>
+	<DemandNode>
+		<NodeName>疲惫</NodeName>
+		<NodeId>3</NodeId>
+		<ImgPath />
+		<Maximum>100</Maximum>
+		<Decay>0.3</Decay>
+		<Threshold>30</Threshold>
+	</DemandNode>
+	<DemandNode>
+		<NodeName>性欲</NodeName>
+		<NodeId>4</NodeId>
+		<ImgPath />
+		<Maximum>100</Maximum>
+		<Decay>0.3</Decay>
+		<Threshold>30</Threshold>
+	</DemandNode>
+</ArrayOfDemandNode>

@@ -40,7 +40,9 @@
   <ArchitectureNode>
     <NodeName>杂货店</NodeName>
     <NodeId>2</NodeId>
-    <ImgPath />
+	  <ImgPath>
+		  content/img/bg/bedroom0
+	  </ImgPath >
     <Brief />
     <Size>20</Size>
     <Capacity>20</Capacity>

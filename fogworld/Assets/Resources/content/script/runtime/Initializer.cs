@@ -21,6 +21,7 @@ public class Initializer : MonoBehaviour
         OrganPoolManager organPoolManager = new OrganPoolManager();
         NamePoolManager namePoolManager = new NamePoolManager();
         RelationPoolManager relationPoolManager = new RelationPoolManager();
+        DemandPoolManager demandPoolManager = new DemandPoolManager();
         regionPoolManager.LoadPool();
         districtPoolManager.LoadPool();
         blockPoolManager.LoadPool();
@@ -31,6 +32,7 @@ public class Initializer : MonoBehaviour
         organPoolManager.LoadPool();
         namePoolManager.LoadPool();
         relationPoolManager.LoadPool();
+        demandPoolManager.LoadPool();
     }
 
     void ConstructObj(Registry reg)
@@ -55,6 +57,12 @@ public class Initializer : MonoBehaviour
         {
             RoomFactory.Construct((Architecture)architecture);
         }
+
+        MobFactory.Construct("ÄÐÈË");
+        List<Obj> moblist = reg.GetObjList(typeof(Mob));
+        Mob mob = (Mob) moblist[0];
+        Debug.Log(mob.WIS);
+
     }
 
     void Connection(Registry reg)

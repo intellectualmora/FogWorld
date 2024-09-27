@@ -33,28 +33,20 @@
       <int>24</int>
       <int>26</int>
     </OrganNodeIdList>
-    <PersonaIdList>
+	  <PersonaNodeIdList>
       <int>0</int>
       <int>1</int>
       <int>2</int>
       <int>4</int>
-    </PersonaIdList>
+    </PersonaNodeIdList>
     <Size>10</Size>
     <Weight>60</Weight>
     <Lifetime>70</Lifetime>
-    <DemandNameList>
-		  <string>Mood</string>
-		  <string>Saturation</string>
-		  <string>Excretion</string>
-		  <string>Libido </string>
-		  <string>Entertainment</string>
-		  <string>Social</string>
-		  <string>Wealth</string>
-    </DemandNameList>
+    <DemandNodeIdList />
     <LifeDecayRateList>
-      <double>0.2</double>
+      <double>4</double>
       <double>0.5</double>
-      <double>0.8</double>
+      <double>0.7</double>
     </LifeDecayRateList>
   </MobNode>
   <MobNode>
@@ -100,19 +92,11 @@
     <Size>8</Size>
     <Weight>50</Weight>
     <Lifetime>75</Lifetime>
-    <DemandNameList>
-	    <string>Mood</string>
-	    <string>Saturation</string>
-		<string>Excretion</string>
-	    <string>Libido </string>
-		<string>Entertainment</string>
-	    <string>Social</string>
-		<string>Wealth</string>
-    </DemandNameList>
+    <DemandIdList />
     <LifeDecayRateList>
-      <double>0.2</double>
+      <double>4</double>
       <double>0.5</double>
-      <double>0.8</double>
+      <double>0.7</double>
     </LifeDecayRateList>
   </MobNode>
 </ArrayOfMobNode>

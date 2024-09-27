@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using MathNet.Numerics.Distributions;
 namespace Backend
 {
-    public class TalentFactory:Factory
+    public class TalentListFactory:Factory
     {
         public static void Generate(Mob mob)
         {

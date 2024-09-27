@@ -14,7 +14,7 @@ namespace Backend
             Registry reg = Registry.GetRegistry();
             foreach (int organNodeId in mobNode.OrganNodeIdList)
             {
-                OrganNode organNode = (OrganNode) reg.GetNode(typeof(Organ), organNodeId);
+                OrganNode organNode = (OrganNode) reg.GetNode(typeof(OrganNode), organNodeId);
                 double weight = LifeDecay(organNode.Weight, mobNode.LifeDecayRateList, ageStage);
                 double durable = LifeDecay(organNode.Durable, mobNode.LifeDecayRateList, ageStage);
                 List<double> attributeList = LifeDecayAttributeList(organNode.AttributeList, mobNode.LifeDecayRateList, ageStage);
