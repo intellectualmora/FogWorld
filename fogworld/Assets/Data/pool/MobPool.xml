@@ -4,7 +4,7 @@
     <NodeName>男人</NodeName>
     <NodeId>0</NodeId>
     <ImgPath />
-    <Brief>男人</Brief>
+    <Brief />
     <OrganNodeIdList>
       <int>0</int>
       <int>1</int>
@@ -33,7 +33,7 @@
       <int>24</int>
       <int>26</int>
     </OrganNodeIdList>
-	  <PersonaNodeIdList>
+    <PersonaNodeIdList>
       <int>0</int>
       <int>1</int>
       <int>2</int>
@@ -52,8 +52,8 @@
   <MobNode>
     <NodeName>女人</NodeName>
     <NodeId>1</NodeId>
-    <ImgPath />
-    <Brief>女人</Brief>
+	  <ImgPath/>
+	    <Brief />
     <OrganNodeIdList>
       <int>0</int>
       <int>1</int>
@@ -83,16 +83,16 @@
       <int>25</int>
       <int>26</int>
     </OrganNodeIdList>
-    <PersonaIdList>
+    <PersonaNodeIdList>
       <int>0</int>
       <int>1</int>
       <int>2</int>
       <int>4</int>
-    </PersonaIdList>
+    </PersonaNodeIdList>
     <Size>8</Size>
     <Weight>50</Weight>
     <Lifetime>75</Lifetime>
-    <DemandIdList />
+    <DemandNodeIdList />
     <LifeDecayRateList>
       <double>4</double>
       <double>0.5</double>

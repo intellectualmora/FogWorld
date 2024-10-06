@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Backend
 {
     [Serializable]
-    public class BagAbility:Ability
+    public class BagAbility: AbilityFunction
     {
     
         private double _capacity;

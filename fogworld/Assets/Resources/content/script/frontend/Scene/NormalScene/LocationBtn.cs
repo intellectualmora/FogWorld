@@ -33,6 +33,13 @@ public class LocationBtn : MonoBehaviour
         Sprite sp = Sprite.Create(texture2d, spr.sprite.textureRect, new Vector2(0.5f, 0.5f));//注意居中显示采用0.5f值
         spr.sprite = sp;
         reg.UpdataCurrentRoomId(roomId);
+        GameObject[] talkers = GameObject.FindGameObjectsWithTag("talker");
+        foreach (var talker in talkers)
+        {
+            talker t = talker.GetComponent<talker>();
+            t.DestroyPanel();
+            GameObject.Destroy(talker);
+        }
         Button btn = GameObject.FindGameObjectWithTag("movebtn").GetComponent<Button>();
         btn.onClick.Invoke();
     }

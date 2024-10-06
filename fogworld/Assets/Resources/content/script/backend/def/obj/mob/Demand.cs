@@ -15,7 +15,7 @@ namespace Backend
         public double Current { get; set; }
 
 
-        public Demand(string objName, string imgPath, string brief, int nodeId, int fatherObjId, double maximum, double decay, double threshold) : base(objName, imgPath, brief, nodeId, typeof(Organ), null, typeof(Mob), fatherObjId, new List<int>())
+        public Demand(string objName, string imgPath, string brief, int nodeId, int fatherObjId, double maximum, double decay, double threshold) : base(objName, imgPath, brief, nodeId, typeof(Demand), null, typeof(Mob), fatherObjId, new List<int>())
         {
             Maximum = maximum;
             Decay = decay;

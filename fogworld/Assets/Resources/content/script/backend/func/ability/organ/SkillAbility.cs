@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Backend
 {
     [Serializable]
-    public class SkillAbility:Ability
+    public class SkillAbility: AbilityFunction
     {
         public int PotentialPoint { get; set; }
         public double MeleeAttackLevel { get; set; }

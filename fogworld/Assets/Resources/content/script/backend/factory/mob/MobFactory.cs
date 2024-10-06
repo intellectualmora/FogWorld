@@ -18,14 +18,14 @@ namespace Backend
             int ageStage = AgeStage( age, mobNode.Lifetime);
             double size = LifeDecay(Math.Abs(new Normal(mobNode.Size, Common.Stddev).Sample()),mobNode.LifeDecayRateList, ageStage);
             double weight = Math.Abs(new Normal(mobNode.Weight, Common.Stddev).Sample());
-            string imgPath = MobImageFactory.Generate(mobNode.NodeName, ageStage, weight / size);
             int personaId = mobNode.PersonaNodeIdList[new Random().Next(mobNode.PersonaNodeIdList.Count)];
-            Mob mob =  new Mob(objName, imgPath, "", mobNode.NodeId, size, weight,age,personaId,new List<(int, string,int)>(),new List<Ability>(), new List <Demand>(),new Queue<(int, string)>(), new List<Talent>(),new List<int>(),0);
+            Mob mob =  new Mob(objName, mobNode.ImgPath, "", mobNode.NodeId, size, weight,age,personaId,new List<(int, string,int)>(),new List<Ability>(), new List <Demand>(),new Queue<(int, string)>(), new List<Talent>(),new List<Organ>(),0);
+            MobImageFactory.Generate(mob, ageStage, weight / size);
             OrganFactory.Generate(mob,mobNode,ageStage);
             DemandFactory.Generate(mob, mobNode);
             AbilityFactory.Generate(mob);
-            RelationFactory.Generate(mob);
-            TalentListFactory.Generate(mob);
+            //RelationFactory.Generate(mob);
+            //TalentListFactory.Generate(mob);
 
         }
         public static double LifeDecay(double value, List<double> decayRate,int ageStage)

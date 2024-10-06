@@ -32,23 +32,23 @@ public class Test2 : MonoBehaviour
     {
         //Debug.Log("Test");
         //// 魅力, 防御,智力， 感知，反应，力量，免疫，消化，意识，繁殖力，恢复力。
-        MobNode mobNode = new MobNode("男人", 0, "", "", new List<int>(){0,1,2,2,3,4,5,5,6,7,8,9,10,11,12,13,15,15,17,18,21,22,22,24,24,26}, new List<int>(){0,1,2,4}, 10,
-            60, 70,new List<int>(){},new List<double>(){4,0.5,0.7});
-        MobNode mobNode2 = new MobNode("女人", 1, "", "", new List<int>() { 0, 1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 15, 16, 17, 19, 20, 23, 23, 25, 25, 26 }, new List<int>() { 0, 1, 2, 4 }, 8,
-            50, 75, new List<int>() {}, new List<double>() { 4, 0.5, 0.7 });
+        //MobNode mobNode = new MobNode("男人", 0, "", "", new List<int>(){0,1,2,2,3,4,5,5,6,7,8,9,10,11,12,13,15,15,17,18,21,22,22,24,24,26}, new List<int>(){0,1,2,4}, 10,
+        //    60, 70,new List<int>(){},new List<double>(){4,0.5,0.7});
+        //MobNode mobNode2 = new MobNode("女人", 1, "", "", new List<int>() { 0, 1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 15, 16, 17, 19, 20, 23, 23, 25, 25, 26 }, new List<int>() { 0, 1, 2, 4 }, 8,
+        //    50, 75, new List<int>() {}, new List<double>() { 4, 0.5, 0.7 });
 
 
-        MobPoolManager m = new MobPoolManager();
-        m.Add(mobNode);
-        m.Add(mobNode2);
+        //MobPoolManager m = new MobPoolManager();
+        //m.Add(mobNode);
+        //m.Add(mobNode2);
         //m.Add(r3);
         //m.Add(r4);
         //m.Add(r5);
-        Debug.Log("m " + m.Pool[0].NodeName);
-        m.SavePool();
-        MobPoolManager x = new MobPoolManager();
-        x.LoadPool();
-        Debug.Log("x" + x.Pool[1].NodeName);
+        //Debug.Log("m " + m.Pool[0].NodeName);
+        //m.SavePool();
+        //MobPoolManager x = new MobPoolManager();
+        //x.LoadPool();
+        //Debug.Log("x" + x.Pool[1].NodeName);
 
     }
 

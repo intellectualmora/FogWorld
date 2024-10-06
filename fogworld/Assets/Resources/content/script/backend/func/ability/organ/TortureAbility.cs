@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Backend
 {
     [Serializable]
-    public class TortureAbility:Ability
+    public class TortureAbility: AbilityFunction
     {
 
         public TortureAbility(Mob mob):base(mob,0)

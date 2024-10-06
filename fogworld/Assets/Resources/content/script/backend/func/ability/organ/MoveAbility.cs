@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Backend
 {
     [Serializable]
-    public class MoveAbility : Ability
+    public class MoveAbility : AbilityFunction
     {
 
         public MoveAbility(Mob mob):base(mob, Common.MainTimeCost)

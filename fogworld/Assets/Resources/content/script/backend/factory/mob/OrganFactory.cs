@@ -19,6 +19,7 @@ namespace Backend
                 double durable = LifeDecay(organNode.Durable, mobNode.LifeDecayRateList, ageStage);
                 List<double> attributeList = LifeDecayAttributeList(organNode.AttributeList, mobNode.LifeDecayRateList, ageStage);
                 Organ organ = new Organ(organNode.NodeName, organNode.ImgPath, organNode.Brief, organNodeId, mob.ObjId, weight, durable,attributeList);
+                mob.OrganList.Add(organ);
             }
 
             foreach (int organObjId in mob.ChildObjIdList)

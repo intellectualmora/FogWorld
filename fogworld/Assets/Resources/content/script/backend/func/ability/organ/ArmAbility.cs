@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Backend
 {
     [Serializable]
-    public class ArmAbility:Ability
+    public class ArmAbility: AbilityFunction
     {
 
         public ArmAbility(Mob mob):base(mob,0)

@@ -16,13 +16,13 @@ public class talker : MonoBehaviour, IPointerClickHandler
     public bool isdisable = false;
     void Start()
     {
+        canvas = GameObject.FindGameObjectWithTag("canvas");
+        textbox = GameObject.FindGameObjectWithTag("textbox").GetComponentInChildren<textbox>(includeInactive:true);
         rightClick.AddListener(new UnityAction(ButtonRightClick));
-
     }
 
     void Awake()
     {
-
     }
     // Update is called once per frame
     void Update()

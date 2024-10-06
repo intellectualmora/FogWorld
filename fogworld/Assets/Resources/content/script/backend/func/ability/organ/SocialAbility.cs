@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Backend
 {
     [Serializable]
-    public class SocialAbility:Ability
+    public class SocialAbility: AbilityFunction
     {
         public string Status { get; set; }
         public SocialAbility(Mob mob):base(mob,Common.SubTimeCost)

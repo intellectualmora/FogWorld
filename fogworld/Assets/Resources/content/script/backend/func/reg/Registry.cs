@@ -216,6 +216,21 @@ namespace Backend
             return surroundRoomIdList;
         }
 
+        public List<int> GetSurroundMobIdList()
+        {
+            Room currentRoom = (Room)GetObj(typeof(Room), _currentRoomId);
+            List<int> surroundMobIdList = new List<int>();
+            foreach (Obj m in GetObjList(typeof(Mob)))
+            {
+                Mob mob = (Mob)m;
+                if (mob.CurrentRoomId == currentRoom.ObjId)
+                {
+                    surroundMobIdList.Add(mob.ObjId);
+                }
+            }
+            return surroundMobIdList;
+        }
+
         public string GetLocationName(int roomId)
         {
             string name = "";

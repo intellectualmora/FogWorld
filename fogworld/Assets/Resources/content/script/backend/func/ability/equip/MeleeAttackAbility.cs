@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Backend
 {
     [Serializable]
-    public class MeleeAttackAbility : Ability
+    public class MeleeAttackAbility : AbilityFunction
     {
         public MeleeAttackAbility(Mob mob):base(mob,Common.SubTimeCost)
         {

@@ -36,16 +36,17 @@ namespace Backend
         public double Durable { get; set; }
         public double Size { get; set; }
         public List<double> AttributeList { get; set; } // 魅力, 防御, 智力，感知，反应，力量，免疫，消化，意识，繁殖力，恢复力
+        public List<int> AbilityNodeIdList { get; set; }
         public int OutOrganNodeId { get; set; }
 
-        public OrganNode(string nodeName, int nodeId, string imgPath, string brief, double weight, double durable, double size, List<double> attributeList, int outOrganNodeId) : base(nodeName, nodeId, imgPath, brief)
+        public OrganNode(string nodeName, int nodeId, string imgPath, string brief, double weight, double durable, double size, List<double> attributeList, int outOrganNodeId, List<int> abilityNodeIdList) : base(nodeName, nodeId, imgPath, brief)
         {
             Weight = weight;
             Durable = durable;
             Size = size;
             AttributeList = attributeList;
             OutOrganNodeId = outOrganNodeId;
-
+            AbilityNodeIdList = abilityNodeIdList;
         }
 
         public OrganNode()

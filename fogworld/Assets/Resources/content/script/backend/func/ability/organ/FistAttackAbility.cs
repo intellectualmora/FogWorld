@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Backend
 {
     [Serializable]
-    public class FistAttackAbility:Ability
+    public class FistAttackAbility: AbilityFunction
     {
         public FistAttackAbility(Mob mob):base(mob,0)
         {

@@ -15,6 +15,7 @@ namespace Backend
             {
                 DemandNode demandNode = (DemandNode)reg.GetNode(typeof(DemandNode), demandNodeId);
                 Demand demand = new Demand(demandNode.NodeName, demandNode.ImgPath, demandNode.Brief, demandNodeId, mob.ObjId,demandNode.Maximum,demandNode.Decay,demandNode.Threshold);
+                mob.DemandList.Add(demand);
             }
         }
 

@@ -22,6 +22,8 @@ public class Initializer : MonoBehaviour
         NamePoolManager namePoolManager = new NamePoolManager();
         RelationPoolManager relationPoolManager = new RelationPoolManager();
         DemandPoolManager demandPoolManager = new DemandPoolManager();
+        AbilityPoolManager abilityPoolManager = new AbilityPoolManager();
+        MobImagePoolManager mobImagePoolManager = new MobImagePoolManager();
         regionPoolManager.LoadPool();
         districtPoolManager.LoadPool();
         blockPoolManager.LoadPool();
@@ -33,6 +35,8 @@ public class Initializer : MonoBehaviour
         namePoolManager.LoadPool();
         relationPoolManager.LoadPool();
         demandPoolManager.LoadPool();
+        abilityPoolManager.LoadPool();
+        mobImagePoolManager.LoadPool();
     }
 
     void ConstructObj(Registry reg)
@@ -57,12 +61,6 @@ public class Initializer : MonoBehaviour
         {
             RoomFactory.Construct((Architecture)architecture);
         }
-
-        MobFactory.Construct("男人");
-        List<Obj> moblist = reg.GetObjList(typeof(Mob));
-        Mob mob = (Mob) moblist[0];
-        Debug.Log(mob.WIS);
-
     }
 
     void Connection(Registry reg)
@@ -79,7 +77,7 @@ public class Initializer : MonoBehaviour
         }
     }
 
-    void Start()
+    void Awake()
     {
         if (Load == false)
         {
@@ -88,6 +86,12 @@ public class Initializer : MonoBehaviour
             ConstructObj(reg);
             Connection(reg);
             reg.InitialCurrentRoomId(reg.GetObjList(typeof(Room))[0].ObjId);
+            MobFactory.Construct("女人",1);
+            MobFactory.Construct("女人", 12);
+            Mob mob = (Mob) reg.GetObjList(typeof(Mob))[0];
+            mob.CurrentRoomId = reg.GetObjList(typeof(Room))[0].ObjId;
+            mob = (Mob)reg.GetObjList(typeof(Mob))[1];
+            mob.CurrentRoomId = reg.GetObjList(typeof(Room))[0].ObjId;
             siteText.GetComponent<TextMeshProUGUI>().text = reg.GetLocationName(reg.GetCurrentRoomId());
             Registry.Save();
         }

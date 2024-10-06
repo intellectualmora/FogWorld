@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Backend
 {
     [Serializable]
-    public class RemoteAttackAbility : Ability
+    public class RemoteAttackAbility : AbilityFunction
     {
         public RemoteAttackAbility(Mob mob):base(mob,Common.SubTimeCost)
         {

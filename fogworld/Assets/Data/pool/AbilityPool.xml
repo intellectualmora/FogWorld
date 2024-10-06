@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAbilityNode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AbilityNode>
+		<NodeName>Move</NodeName>
+		<NodeId>0</NodeId>
+		<ImgPath />
+		<Brief>移动</Brief>
+	</AbilityNode>
+	<AbilityNode>
+		<NodeName>Bag</NodeName>
+		<NodeId>1</NodeId>
+		<ImgPath />
+		<Brief>负重</Brief>
+	</AbilityNode>
+</ArrayOfAbilityNode>

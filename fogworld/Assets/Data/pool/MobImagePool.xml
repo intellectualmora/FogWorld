@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMobImageNode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<MobImageNode>
+		<NodeName>loli</NodeName>
+		<NodeId>0</NodeId>
+		<MobNodeId>1</MobNodeId>
+		<AgeStage>0</AgeStage>
+		<ImgPath>content/img/girl/full/Loli</ImgPath>
+		<Apparel>uniform</Apparel>
+		<Brief>萝莉</Brief>
+	</MobImageNode>
+	<MobImageNode>
+		<NodeName>young</NodeName>
+		<NodeId>1</NodeId>
+		<MobNodeId>1</MobNodeId>
+		<ImgPath>content/img/girl/full/Young</ImgPath>
+		<AgeStage>1</AgeStage>
+		<Apparel>uniform</Apparel>
+		<Brief>少女</Brief>
+	</MobImageNode>
+	<MobImageNode>
+		<NodeName>milf</NodeName>
+		<NodeId>2</NodeId>
+		<MobNodeId>1</MobNodeId>
+		<AgeStage>3</AgeStage>
+		<ImgPath>content/img/girl/full/Milf</ImgPath>
+		<Apparel>uniform</Apparel>
+		<Brief>熟女</Brief>
+	</MobImageNode>
+</ArrayOfMobImageNode>

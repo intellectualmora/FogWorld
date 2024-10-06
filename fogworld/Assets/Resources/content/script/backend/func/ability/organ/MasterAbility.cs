@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Backend
 {
     [Serializable]
-    public class MasterAbility:Ability
+    public class MasterAbility: AbilityFunction
     {
         public MasterAbility(Mob mob):base(mob,0)
         {

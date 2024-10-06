@@ -28,6 +28,8 @@ namespace Backend
         public static string OrganPool = "OrganPool.xml";
         public static string NamePool = "NamePool.xml";
         public static string DemandPool = "DemandPool.xml";
+        public static string AbilityPool = "AbilityPool.xml";
+        public static string MobImagePool = "MobImagePool.xml";
         public static string SaveData = "SaveData.savedata";
         public static int RootObjId = 0;
         public static bool IsLoad = false;

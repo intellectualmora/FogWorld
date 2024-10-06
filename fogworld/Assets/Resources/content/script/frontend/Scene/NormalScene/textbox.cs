@@ -16,7 +16,6 @@ public class textbox : MonoBehaviour
 
     public void Start()
     {
-        
     }
 
     private void ShowScript()
@@ -31,7 +30,9 @@ public class textbox : MonoBehaviour
 
     void Awake()
     {
+        talker = GameObject.FindGameObjectWithTag("talker").GetComponent<talker>();
         textBtn.onClick.AddListener(btClick);//添加监听器用于监听按键事件，并回调函数
+
     }
     // Update is called once per frame
     void Update()

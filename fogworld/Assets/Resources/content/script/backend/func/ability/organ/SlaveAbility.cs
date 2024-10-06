@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Backend
 {
     [Serializable]
-    public class SlaveAbility:Ability
+    public class SlaveAbility: AbilityFunction
     {
     
         private Mob _master;

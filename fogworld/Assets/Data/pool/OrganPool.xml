@@ -21,6 +21,7 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>-1</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -44,6 +45,7 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>0</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -67,6 +69,7 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>-1</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -90,6 +93,7 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>-1</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -113,6 +117,7 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>-1</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -136,6 +141,7 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>-1</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -159,6 +165,7 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>-1</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -182,6 +189,7 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>-1</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -205,6 +213,7 @@
       <double>6</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>7</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -228,6 +237,7 @@
       <double>4</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>7</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -251,6 +261,7 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>-1</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -274,6 +285,7 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>10</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -297,6 +309,7 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>10</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -320,6 +333,7 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>10</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -343,6 +357,7 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>10</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -366,6 +381,7 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>10</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -389,6 +405,7 @@
       <double>0</double>
       <double>20</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>10</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -412,6 +429,7 @@
       <double>0</double>
       <double>20</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>-1</OutOrganNodeId>
   </OrganNode>
   
@@ -436,6 +454,7 @@
       <double>0</double>
       <double>20</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>-1</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -459,6 +478,7 @@
       <double>0</double>
       <double>20</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>-1</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -482,6 +502,7 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>-1</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -505,6 +526,7 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>-1</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -528,6 +550,9 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList>
+	    <int>1</int>
+    </AbilityNodeIdList>
     <OutOrganNodeId>-1</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -551,6 +576,9 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList>
+	    <int>1</int>
+    </AbilityNodeIdList>
     <OutOrganNodeId>-1</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -574,6 +602,9 @@
       <double>0</double>
       <double>0</double>
     </AttributeList>
+    <AbilityNodeIdList>
+	    <int>0</int>
+    </AbilityNodeIdList>
     <OutOrganNodeId>-1</OutOrganNodeId>
   </OrganNode>
   <OrganNode>
@@ -598,6 +629,9 @@
       <double>0</double>
     </AttributeList>
     <OutOrganNodeId>-1</OutOrganNodeId>
+    <AbilityNodeIdList>
+	    <int>0</int>
+    </AbilityNodeIdList>
   </OrganNode>
   <OrganNode>
     <NodeName>人血</NodeName>
@@ -620,6 +654,7 @@
       <double>0</double>
       <double>10</double>
     </AttributeList>
+    <AbilityNodeIdList/>
     <OutOrganNodeId>-1</OutOrganNodeId>
   </OrganNode>
 </ArrayOfOrganNode>
